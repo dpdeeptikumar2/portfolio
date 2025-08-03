@@ -795,12 +795,12 @@ footer::before {
 
 /* Make expandable images show pointer cursor */
 .expandable-img {
-    cursor: pointer;
+    cursor: pointer !important;
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .expandable-img:hover {
-    transform: scale(1.02);
+    transform: scale(1.02) !important;
     filter: brightness(1.1);
 } 
 
