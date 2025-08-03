@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepti DP - Finance & Administration Professional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <div class="zoom-controls">
+            <button class="zoom-in">+</button>
+            <button class="zoom-out">-</button>
+            <button class="zoom-reset">Reset</button>
+        </div>
+        <div class="lightbox-container">
+            <img id="lightbox-img" class="lightbox-content" src="" alt="Expanded view">
+        </div>
+    </div>
+
+    <!-- Page Transition Overlay -->
+    <div class="page-transition">
+        <div class="transition-layer"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-circle"></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="nav-content">
+                <a href="#" class="logo">
+                    <span class="logo-text">DEEPTI</span>
+                    <span class="logo-highlight">DP</span>
+                    <div class="logo-underline"></div>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#recognition">Recognition</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-background"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content glass-card slide-up">
+                    <div class="profile-image-container fade-in">
+                        <img src="assets/images/hero/Brown and Cream Modern Portfolio Presentation_page-0001.jpg" alt="Deepti DP" class="profile-image-full expandable-img">
+                    </div>
+                    <div class="experience-badge glass-card fade-in">
+                        <div class="stars">★★★★★</div>
+                        <div>6.5+ Years</div>
+                        <div>Experience</div>
+                    </div>
+                    <p class="subtitle slide-up">Strategic thinker with a data-driven mindset, delivering impactful results through logical analysis, operational alignment & process excellence.</p>
+                    <div class="cta-buttons fade-in">
+                        <a href="#projects" class="cta-button hover-lift">View Projects</a>
+                        <a href="#contact" class="cta-button secondary hover-lift">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content glass-card">
+                    <img src="assets/images/about/Brown and Cream Modern Portfolio Presentation_page-0002.jpg" alt="About Me" class="about-image expandable-img">
+                    <div class="about-text">
+                        <p class="intro">The breakthrough Business professional with more than half a decade of exceptional experience in end-to-end Accounts Payable – P2P process globally, ensuring accurate and timely payments.</p>
+                        
+                        <div class="key-points">
+                            <div class="point">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Specialized in managing day-to-day Accounts Payable operations, including invoice allocation, query resolution, and invoice processing (FI & MM modules in SAP)</p>
+                            </div>
+                            <div class="point">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Expert in reporting, reconciliation, direct posting (Mayflower in Malaysia & AMEX in Philippines) and Power BI dashboards</p>
+                            </div>
+                            <div class="point">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Subject matter expertise (SME) in addressing client escalations and driving process improvements</p>
+                            </div>
+                            <div class="point">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Zero customer escalations and zero Defective Payments (DP), aligning with Six Sigma Yellow Belt standards</p>
+                            </div>
+                        </div>
+
+                        <div class="achievements">
+                            <h3>Key Achievements</h3>
+                            <ul>
+                                <li>Star Performer</li>
+                                <li>Champions of Champions Award</li>
+                                <li>Best Performer Award</li>
+                                <li>Outstanding Team Award (quarterly)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="skills-container glass-card">
+                    <img src="assets/images/Skills and Expertise/Brown and Cream Modern Portfolio Presentation_page-0004.jpg" alt="Skills and Expertise" class="skills-image expandable-img">
+                    <div class="expertise-tags">
+                        <span class="tag">Agile Methodologies</span>
+                        <span class="tag">Gen AI</span>
+                        <span class="tag">Co-Pilot</span>
+                        <span class="tag">Chat GPT</span>
+                        <span class="tag">Global best practices</span>
+                        <span class="tag">Power BI</span>
+                        <span class="tag">MS Office</span>
+                        <span class="tag">Digital Transformation</span>
+                        <span class="tag">People Management</span>
+                        <span class="tag">ICA powered by Watsonx</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume">
+            <div class="container">
+                <h2 class="section-title">Resume</h2>
+                <a href="assets/images/Resume/DP.pdf" class="cta-button" download>
+                    <i class="fas fa-download"></i> Download Complete Resume
+                </a>
+                <div class="resume-content glass-card">
+                    <div class="resume-summary">
+                        <p class="summary-text">Strategic Finance & Accounts Payable (P2P) Specialist with over 6.5 years of experience in global operations. Expert in streamlining processes, implementing AI-driven solutions, and delivering exceptional results across APAC and EMEA markets. Recognized for achieving zero customer escalations and maintaining Six Sigma quality standards.</p>
+                    </div>
+
+                    <div class="resume-grid">
+                        <!-- Experience -->
+                        <div class="resume-section">
+                            <h3>Professional Experience</h3>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <h4>Finance & Administration Delivery Specialist</h4>
+                                        <div class="timeline-date">Jun'22 to Aug'25</div>
+                                        <p>IBM India Private Limited - Global Processing Services, Bangalore</p>
+                                        <ul class="experience-list">
+                                            <li>Leveraged ICR & Easy GR to streamline invoice posting and minimize manual effort</li>
+                                            <li>Managed end-to-end AP operations for APAC markets (PH, MY, AU & NZ)</li>
+                                            <li>Led Power BI dashboard creation and invoice allocations</li>
+                                        </ul>
+                                </div>
+                            </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <h4>Senior Process Associate (Financial Associate III)</h4>
+                                        <div class="timeline-date">Feb'12 to May'15</div>
+                                        <p>HP Global e-Business Operations Private Ltd, Bangalore</p>
+                                        <ul class="experience-list">
+                                            <li>Managed OB10 project and KTM (Kofax Transmission Module) Project</li>
+                                            <li>Handled AP operations for EMEA markets (DE & IT)</li>
+                                            <li>Received 4 Kaizen awards for process improvements</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Education -->
+                        <div class="resume-section">
+                            <h3>Education</h3>
+                            <div class="certifications-list">
+                                <div class="certification-item">
+                                    <h4>MBA</h4>
+                                    <p>IGNOU, Bangalore</p>
+                                    <div class="certification-date">2011</div>
+                        </div>
+                                <div class="certification-item">
+                                    <h4>B.Com</h4>
+                                    <p>Bangalore University</p>
+                                    <div class="certification-date">2008</div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <!-- Key Skills -->
+                        <div class="resume-section">
+                            <h3>Areas of Expertise</h3>
+                            <div class="skills-tags">
+                                <span class="skill-tag">P2P Process</span>
+                                <span class="skill-tag">SAP (FI & MM)</span>
+                                <span class="skill-tag">Power BI</span>
+                                <span class="skill-tag">Process Optimization</span>
+                                <span class="skill-tag">Team Leadership</span>
+                                <span class="skill-tag">Client Management</span>
+                                <span class="skill-tag">Financial Analysis</span>
+                                <span class="skill-tag">Vendor Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card glass-card">
+                        <img src="assets/images/projects/Brown and Cream Modern Portfolio Presentation_page-0006.jpg" alt="Project 1" class="project-image expandable-img">
+                    </div>
+                    <div class="project-card glass-card">
+                        <img src="assets/images/projects/Brown and Cream Modern Portfolio Presentation_page-0007.jpg" alt="Project 2" class="project-image expandable-img">
+                    </div>
+                    <div class="project-card glass-card">
+                        <img src="assets/images/projects/Brown and Cream Modern Portfolio Presentation_page-0008.jpg" alt="Project 3" class="project-image expandable-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recognition Section -->
+        <section id="recognition" class="recognition">
+            <div class="container">
+                <h2 class="section-title">Recognition</h2>
+                <div class="recognition-container glass-card">
+                    <img src="assets/images/Recognition/Brown and Cream Modern Portfolio Presentation_page-0009.jpg" alt="Recognition" class="recognition-image expandable-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="contact-content glass-card">
+                    <img src="assets/images/Contact Me/Brown and Cream Modern Portfolio Presentation_page-0010.jpg" alt="Contact" class="contact-image expandable-img">
+                <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>09739804376</p>
+                        </div>
+                        <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                            <p>dpdeepti2@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/deepti-dp" target="_blank">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Deepti DP. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize GSAP ScrollTrigger
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Animate sections on scroll
+        document.querySelectorAll('section').forEach(section => {
+            gsap.from(section, {
+                opacity: 0,
+                y: 50,
+                duration: 1,
+                scrollTrigger: {
+                    trigger: section,
+                    start: 'top 80%',
+                    end: 'top 20%',
+                    toggleActions: 'play none none reverse'
+                }
+            });
+        });
+
+        // Lightbox functionality with zoom
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxContainer = document.querySelector('.lightbox-container');
+        const closeLightbox = document.querySelector('.close-lightbox');
+        const zoomInBtn = document.querySelector('.zoom-in');
+        const zoomOutBtn = document.querySelector('.zoom-out');
+        const zoomResetBtn = document.querySelector('.zoom-reset');
+
+        let currentScale = 1;
+        let isDragging = false;
+        let isHolding = false;
+        let holdTimer = null;
+        let startX, startY, translateX = 0, translateY = 0;
+        const ZOOM_STEP = 0.1; // Smaller step for more gradual zoom
+        const WHEEL_ZOOM_FACTOR = 0.005; // Very fine control for mouse wheel
+        const MAX_ZOOM = 5;
+        const MIN_ZOOM = 0.5;
+        const HOLD_DURATION = 150;
+        const ZOOM_LEVELS = [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.5, 3, 3.5, 4, 4.5, 5]; // Predefined zoom levels
+
+        // Function to find the nearest zoom level
+        function findNearestZoomLevel(scale) {
+            return ZOOM_LEVELS.reduce((prev, curr) => 
+                Math.abs(curr - scale) < Math.abs(prev - scale) ? curr : prev
+            );
+        }
+
+        // Function to get next/previous zoom level
+        function getNextZoomLevel(scale, increase) {
+            const currentLevel = findNearestZoomLevel(scale);
+            const currentIndex = ZOOM_LEVELS.indexOf(currentLevel);
+            if (increase) {
+                return currentIndex < ZOOM_LEVELS.length - 1 ? ZOOM_LEVELS[currentIndex + 1] : MAX_ZOOM;
+            } else {
+                return currentIndex > 0 ? ZOOM_LEVELS[currentIndex - 1] : MIN_ZOOM;
+            }
+        }
+
+        // Make all expandable images clickable
+        document.querySelectorAll('.expandable-img').forEach(img => {
+            img.style.cursor = 'pointer';
+            img.addEventListener('click', function() {
+                lightbox.style.display = 'flex';
+                lightboxImg.src = this.src;
+                document.body.style.overflow = 'hidden';
+                resetZoom();
+            });
+        });
+
+        // Zoom controls with smoother steps
+        zoomInBtn.addEventListener('click', () => {
+            currentScale = getNextZoomLevel(currentScale, true);
+            updateTransform(true);
+        });
+
+        zoomOutBtn.addEventListener('click', () => {
+            currentScale = getNextZoomLevel(currentScale, false);
+            updateTransform(true);
+        });
+
+        zoomResetBtn.addEventListener('click', resetZoom);
+
+        // Enhanced mouse wheel zoom with much smoother steps
+        let wheelTimeout;
+        lightboxContainer.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            
+            // Calculate new scale with very fine control
+            const delta = e.deltaY * -WHEEL_ZOOM_FACTOR;
+            const newScale = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, currentScale * (1 + delta)));
+            
+            // Apply the zoom immediately for smooth feel
+            currentScale = newScale;
+            updateTransform(false);
+            
+            // After wheel stops, snap to nearest zoom level
+            clearTimeout(wheelTimeout);
+            wheelTimeout = setTimeout(() => {
+                currentScale = findNearestZoomLevel(currentScale);
+                updateTransform(true);
+            }, 150);
+        });
+
+        // Touch events for mobile with enhanced zoom
+        let initialDistance = 0;
+        let lastScale = 1;
+        
+        lightboxContainer.addEventListener('touchstart', (e) => {
+            if (e.touches.length === 2) {
+                e.preventDefault();
+                initialDistance = getTouchDistance(e.touches);
+                lastScale = currentScale;
+            } else {
+                startHolding(e.touches[0]);
+            }
+        });
+
+        lightboxContainer.addEventListener('touchmove', (e) => {
+            if (e.touches.length === 2) {
+                e.preventDefault();
+                const currentDistance = getTouchDistance(e.touches);
+                const delta = (currentDistance - initialDistance) * 0.005; // More gradual pinch zoom
+                currentScale = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, lastScale * (1 + delta)));
+                updateTransform(false);
+            } else if (isHolding) {
+                drag(e.touches[0]);
+            }
+        });
+
+        lightboxContainer.addEventListener('touchend', (e) => {
+            if (e.touches.length === 0) {
+                // Snap to nearest zoom level when pinch ends
+                currentScale = findNearestZoomLevel(currentScale);
+                updateTransform(true);
+                stopDragging();
+            }
+        });
+
+        function getTouchDistance(touches) {
+            return Math.hypot(
+                touches[0].pageX - touches[1].pageX,
+                touches[0].pageY - touches[1].pageY
+            );
+        }
+
+        function startHolding(e) {
+            if (currentScale > 1) {
+                isHolding = true;
+                startX = e.clientX;
+                startY = e.clientY;
+                
+                if (holdTimer) clearTimeout(holdTimer);
+                
+                lightboxContainer.style.cursor = 'pointer';
+                
+                holdTimer = setTimeout(() => {
+                    if (isHolding) {
+                        isDragging = true;
+                        lightboxContainer.style.cursor = 'grabbing';
+                        lightboxImg.style.transition = 'none';
+                    }
+                }, HOLD_DURATION);
+            }
+        }
+
+        function drag(e) {
+            if (!isDragging) return;
+            e.preventDefault();
+            
+            const deltaX = e.clientX - startX;
+            const deltaY = e.clientY - startY;
+            
+            translateX += deltaX;
+            translateY += deltaY;
+            
+            startX = e.clientX;
+            startY = e.clientY;
+            
+            updateTransform(false);
+        }
+
+        function stopDragging() {
+            isDragging = false;
+            isHolding = false;
+            if (holdTimer) clearTimeout(holdTimer);
+            lightboxContainer.style.cursor = currentScale > 1 ? 'grab' : 'default';
+            lightboxImg.style.transition = 'transform 0.3s ease';
+        }
+
+        function updateTransform(animate) {
+            if (animate) {
+                lightboxImg.style.transition = 'transform 0.3s ease';
+            } else {
+                lightboxImg.style.transition = 'none';
+            }
+
+            const maxTranslateX = (currentScale - 1) * lightboxImg.width / 2;
+            const maxTranslateY = (currentScale - 1) * lightboxImg.height / 2;
+            
+            translateX = Math.max(Math.min(translateX, maxTranslateX), -maxTranslateX);
+            translateY = Math.max(Math.min(translateY, maxTranslateY), -maxTranslateY);
+
+            lightboxImg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${currentScale})`;
+            lightboxContainer.style.cursor = isDragging ? 'grabbing' : (currentScale > 1 ? 'grab' : 'default');
+
+            const zoomPercent = Math.round(currentScale * 100);
+            zoomResetBtn.textContent = `Reset (${zoomPercent}%)`;
+        }
+
+        function resetZoom() {
+            currentScale = 1;
+            translateX = 0;
+            translateY = 0;
+            updateTransform(true);
+        }
+
+        // Close lightbox
+        closeLightbox.addEventListener('click', () => {
+            lightbox.style.display = 'none';
+            document.body.style.overflow = 'auto';
+            resetZoom();
+        });
+
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                lightbox.style.display = 'none';
+                document.body.style.overflow = 'auto';
+                resetZoom();
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && lightbox.style.display === 'flex') {
+                lightbox.style.display = 'none';
+                document.body.style.overflow = 'auto';
+                resetZoom();
+            }
+        });
+    </script>
+</body>
+</html> 
